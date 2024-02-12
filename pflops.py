@@ -4,13 +4,7 @@ floating_point = start
 loop_range=10 ** 7
 
 for i in xrange(loop_range):
-    floating_point += float_increment
-    floating_point += float_increment
-    floating_point += float_increment
-    floating_point += float_increment
-    floating_point += float_increment
-    floating_point += float_increment
-    floating_point += float_increment
-    floating_point += float_increment
-    floating_point += float_increment
-    floating_point += float_increment
+    for j in range(10):
+        floating_point += float_increment
+
+# This is done 6 years ago. I know much more 
